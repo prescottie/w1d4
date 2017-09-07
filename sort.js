@@ -16,8 +16,6 @@ var sortedStudents = students.sort(function(x, y){
       return 1;
     }
     return y.age - x.age;
-
-
 });
 
 console.log(sortedStudents);
